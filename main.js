@@ -1,10 +1,10 @@
 
-// Initial general data that may be changed by the user
+// Initial general data
 var generalData = {
     fps: 0
 };
 
-// A global object that can listen to property changes
+// property changes
 window.wallpaperPropertyListener = {
     applyGeneralProperties: function(properties) {
         var jsonDebugElement = document.getElementById('GeneralJsonDebug');
